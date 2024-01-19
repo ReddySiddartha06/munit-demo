@@ -34,6 +34,7 @@ output application/json
 payload]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
+				<logger level="INFO" doc:name="Logger" doc:id="f44add05-6340-4e48-887d-df4889935408" />
 			</when>
 			<otherwise >
 				<ee:transform doc:name="Transform Message" doc:id="ba5b7adc-8e36-4b54-9655-a72e0453e0bb" >
